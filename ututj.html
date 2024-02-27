@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коментарі</title>
+</head>
+<body>
+    <textarea placeholder="Добавить комментарий..." id="newComment"></textarea>
+    <input id="newName" type="text">
+    <button onclick="addName(); addComment()" ">Відправити</button>
+    <div id="names" >
+        <div id="comments">
+        </div>
+    </div>
+    
+    <script>
+        function addName(){
+            var name = document.getElementById('newName').value;
+            var namesBlock = document.getElementById('names');
+            
+            var newNameDiv = document.createElement('div');
+            newNameDiv.textContent = name;
+            
+            // Додаємо новий коментар вгорі блоку коментарів
+            namesBlock.insertBefore(newNameDiv, namesBlock.firstChild);
+            
+            // Очищаємо поле вводу
+            document.getElementById('newName').value = '';
+        }
+        function addComment() {
+            var comment = document.getElementById('newComment').value;
+            var commentsBlock = document.getElementById('comments');
+            
+            var newCommentDiv = document.createElement('div');
+            newCommentDiv.textContent = comment;
+            
+            // Додаємо новий коментар вгорі блоку коментарів
+            commentsBlock.insertBefore(newCommentDiv, commentsBlock.firstChild );
+            
+            // Очищаємо поле вводу
+            document.getElementById('newComment').value = '';
+        }
+    </script>
+</body>
+</html>

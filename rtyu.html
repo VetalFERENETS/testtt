@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Автоматическое увеличение блока при появлении комментариев</title>
+<style>
+    #commentBlock {
+        max-height: 300px; /* Максимальная высота блока */
+        overflow-y: auto; /* Включение вертикальной прокрутки, если содержимое выходит за пределы блока */
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div id="commentBlock">
+    <!-- Содержимое блока комментариев -->
+    <p>Пример комментария 1</p>
+    <p>Пример комментария 2</p>
+    <p>Пример комментария 3</p>
+    <!-- Новые комментарии будут добавляться здесь -->
+</div>
+
+<!-- Кнопка для добавления новых комментариев -->
+<button onclick="addComment()">Добавить комментарий</button>
+
+<script>
+    function addComment() {
+        var commentBlock = document.getElementById("commentBlock");
+        var newComment = document.createElement("p");
+        newComment.textContent = "Новый комментарий";
+        commentBlock.appendChild(newComment);
+        commentBlock.scrollTop = commentBlock.scrollHeight; // Прокрутка вниз до конца блока комментариев
+    }
+</script>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+</html>
