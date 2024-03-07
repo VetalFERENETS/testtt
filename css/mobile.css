@@ -1,0 +1,393 @@
+@media(max-width:767px){
+
+.title1{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.elips{
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+.fofa{
+    display: block;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.osnova{
+    display: block;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+   }
+   .did{
+    font-family: "Bebas Neue" , sans-serif;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+   }
+   .ryr{
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+width: 172px;
+height: 24px;
+
+   }
+   .popo{
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+   }
+   .dead{
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.dop{
+opacity: 100;
+width: 100%;
+height: 100%;
+box-shadow: 4px 4px 30px 1px #5600E1B2;
+border: 1px solid #5600E1;
+padding-left: 4px;
+padding-top: 8px;
+padding-right: 4px;
+padding-bottom: 8px;
+width: 171px;
+height: 23px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.weew{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+width: 254px;
+}
+.text1{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: left;
+width: auto;
+height: auto;
+}
+.text2{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+height: auto;
+}
+.text3{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+height: auto;
+}
+.list1{
+padding-left: 11px;
+padding-top: 33px;
+padding-bottom: 32px;
+padding-right: 51px;
+}
+.list2{
+    padding-left: 10px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-right: 24px;
+}
+.list3{
+    padding-left: 11px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 36px;
+}
+.list4{
+    padding-left: 11px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-right: 43px;
+}
+.hh{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.text4{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+height: auto;
+}
+.cont{
+    height: auto;
+}
+.rot{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.menu{
+    display: flex;
+padding-left: 10px;
+padding-right: 10px;
+gap: 20px;
+flex-direction:column;
+}
+.svge{
+    width: 30px;
+    height: 30px;
+}
+.open{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    
+}
+.qwqwe{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.015em;
+text-align: left;
+padding-right: 101px;
+padding-bottom: 81px;
+width: 179px;
+}
+.svg-list{
+    margin-top: 18px;
+    gap: 20px;
+}
+.fot{
+    margin-top: 18px;
+}
+.name{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: -0.01em;
+text-align: left;
+padding-top: 16px;
+padding-left: 20px;
+padding-bottom: 17px;
+padding-right: 240px;
+margin-right: 0px;
+width: 40px;
+}
+.boot{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.015em;
+text-align: left;
+padding-top: 14px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 14px;
+}
+.modal{
+    margin-left: 0px;
+    height: auto;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 57px;
+    margin-bottom: 50px;
+}
+.vktl{
+    gap: 20px;
+}
+.naber{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+h5{
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.posh{
+    width: 16px;
+    height: 13px;
+}
+.teleg{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+padding-left: 27px;
+padding-right: 27px;
+padding-bottom: 9px;
+padding-top: 10px;
+gap: 8px;
+}
+.infa{
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.sdas{
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .reye{
+    gap: 52px;
+  }
+  .weq{
+    gap: 16px;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+    margin-bottom: 35px;
+  }
+  .ser{
+    gap: 25px;
+  }
+  .doue{
+    gap: 10px;
+  }
+  footer{
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+  }
+.wew{
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+.olo1{
+    width: 0px;
+    height: 0px;
+opacity: 0;
+visibility: hidden;
+}
+   .lix{
+    display: block;
+    padding-left: 10px;
+    padding-top: 21px;
+    padding-right: 10px;
+    padding-bottom: 26px;
+    margin-top: 10px;
+   }
+   .loio{
+    position: relative;
+    top: 373px;
+    left: 150px;
+    
+   }
+   .kola{
+    display: block;
+   }
+   .olo{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+   }
+   .ert{
+    margin-top: 5px;
+    margin-bottom: 0px;
+   }
+.geop{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 337px;
+}
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2){
+    .photo{
+        max-width: 767px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px; 
+width: 100%;
+margin-bottom: 10px;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/face\ \(1\).jpg);
+    }
+}
