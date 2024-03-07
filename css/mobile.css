@@ -371,6 +371,10 @@ text-align: left;
     margin-top: 5px;
     margin-bottom: 0px;
    }
+   .qas{
+    width: 0px;
+    height: 0px;
+   }
 .geop{
     padding-left: 10px;
     padding-right: 10px;
